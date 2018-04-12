@@ -1,0 +1,293 @@
+html
+{
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/VGiBmTeaeilt7mgjb/video-game-background-blue_451fb1bpx__F0000.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-position: center center;*/
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+/*1100h x 635w*/
+
+#circle {
+    margin: 0 auto;
+    background-attachment: fixed;
+    margin-top: 50px;
+    border: solid 10px black;
+    vertical-align: middle;
+    width: 590px;
+    height: 590px;
+    border-radius: 600px;
+    box-shadow: -10px 10px 7px 0px rgba(50, 50, 50, 0.75);
+}
+
+#playerControls 
+{
+    position: relative;
+    top: -421px;
+    right: -555px;
+    height: 260px;
+    align-items: center;
+    width: 260px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 100px;
+    text-align: center;
+    background: rgb(238, 233,237);
+
+   
+}
+
+@media all and (max-width: 1125px) and (min-width: 1115px) 
+{
+    #playerControls {
+        position: relative;
+        top: -421px;
+        right: -445px;
+        height: 260px;
+        align-items: center;
+        width: 260px;
+        border-radius: 50%;
+        font-size: 20px;
+        line-height: 100px;
+        text-align: center;
+        background: rgb(238, 233,237);
+    }
+}
+
+
+
+
+
+
+
+
+    .Active
+{ 
+    pointer-events:auto;
+}
+
+.Player
+{
+    pointer-events:none;
+}
+
+.display 
+{
+    /*padding: 9px;*/
+    padding-left:15px ;
+    padding-right: 15px;
+    color:red;
+    position: relative;
+    top:250px ;
+    top: 70px;
+    left:-41px ;
+    color:red;
+    background: black;    
+    width: 20px;
+    height: 20px;
+}
+
+#startBT
+{
+
+width: 20px;
+height: 20px; 
+border-radius:50% ;
+background: red;
+position: absolute;
+top:250px ;
+top: 111px;
+left: 123px;
+
+}
+
+#strictBT
+{
+    
+width: 20px;
+height: 20px; 
+border-radius:50% ;
+background: yellow;
+position: absolute;
+top:250px ;
+top: 115px;
+left: 165px;
+}
+
+
+#powerSwitch 
+{
+    background: grey;
+    vertical-align: top;
+    display: inline-block;
+    border: solid 1px black;
+    margin-top: 5px;
+    height: 15px;
+    width: 30px;
+  }
+
+  #onText 
+  {
+    vertical-align: top;
+    display: inline-block;
+    height: 40px;
+    line-height: 25px;
+    width: 60px;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  #buttonOn 
+  {
+    visibility: hidden;  
+    background: blue;
+    vertical-align: top;
+    display: inline-block;
+    border-radius: 15%;
+    margin: 1px 2.8px 0px 1px;
+    height: 13px;
+    width: 13px;
+  }
+
+  #offText 
+  {
+    vertical-align: top;
+    display: inline-block;
+    height: 40px;
+    line-height: 25px;
+    width: 60px;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  #buttonOff 
+  {
+    background: blue;
+    vertical-align: top;
+    display: inline-block;
+    border-radius: 15%;
+    margin: 1px 0px 0px 0px;
+    height: 13px;
+    width: 13px;
+  }
+
+.Red
+{
+
+position: relative;
+top:293px;
+right: -298px;
+background-color:rgb(156, 18,23);
+height: 300px;
+width: 300px;
+text-decoration: none;
+border:1px solid black;
+border-radius:  0 0 100% 0;
+ 
+}
+
+.Yellow 
+{
+    position: relative;
+    top: -10px;
+    left: -2px;
+    background-color: rgb(203, 166,12);
+    height:300px;
+    width:300px;
+    transform: rotate(90deg);
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 0 0 100% 0;
+}
+
+.Blue 
+{
+    position: relative;
+    top: -612px;
+    left: -3px;
+    background-color: rgb(26,140, 256);
+    height: 300px;
+    width: 300px;
+    transform: rotate(180deg);
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 0 0 100% 0;
+}
+
+.Green 
+{
+    position: relative;
+    /*top: -490px;*/
+    top: -913px;
+    right: -297px;
+    background-color: rgb(3,166,75);
+    height: 300px;
+    width: 300px;
+    transform: rotate(270deg);
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 0 0 100% 0;
+}
+
+.Red-active
+{
+    background-color:red;
+}
+.Yellow-active 
+{
+    background-color:yellow;
+}
+.Green-active 
+{
+    background-color:green;
+}
+.Blue-active 
+{
+    background-color:blue;
+}
+
+#Dialogbox {
+    color: black;
+}
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+    .modalDialog:target {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .modalDialog > div {
+        width: 400px;
+        position: relative;
+        margin: 10% auto;
+        padding: 5px 20px 13px 20px;
+        border-radius: 10px;
+        background: #fff;
+        background: -moz-linear-gradient(purple, yellow);
+        background: -webkit-linear-gradient(purple, yellow);
+        background: -o-linear-gradient(purple, yellow);
+        color: black;
+    }
+
+
