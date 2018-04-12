@@ -1,0 +1,5 @@
+#ignore a local copy of jQuery
+jQuery.js
+
+#Ignore local copy of Bootstrap
+/bootstrap/
